@@ -15,10 +15,8 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Run scss watcher
 ```
-npm run lint
+npm run scss
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
