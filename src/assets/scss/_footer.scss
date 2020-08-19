@@ -1,0 +1,33 @@
+.footer {
+  height: 5rem;
+  padding: 1.5rem 0;
+  background: #fff;
+  border-top: 1px solid $border-color;
+}
+.footer__left-side {
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+  .row__col {
+    width: 50%;
+  }
+}
+.footer__right-side {
+  flex: 0;
+}
+.footer-element {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 9rem;
+
+  &__text {
+    line-height: .875rem;
+    font-size: .75rem;
+    color: $text-light;
+  }
+  &__logo {
+    margin-right: .5rem;
+  }
+}

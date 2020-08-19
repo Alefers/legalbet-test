@@ -1,0 +1,96 @@
+.header {
+  height: 4rem;
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    nav {
+      flex: 1;
+    }
+  }
+}
+.header-logo {
+  margin: 0 1.5rem 0 0;
+
+  &__image {
+    width: 7rem;
+    height: auto;
+    position: relative;
+    top: .25rem;
+  }
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: $text-main;
+    margin-left: 1.5rem;
+
+    &:hover {
+      color: $link-hover;
+    }
+    &:first-of-type {
+      margin: 0;
+    }
+  }
+}
+.action-panel {
+  display: flex;
+  align-items: center;
+}
+.action-opener {
+  color: $text-gray;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding: 0 .75rem 0 0;
+  margin: 0 0 0 1.5rem;
+
+  &-support {
+    &:after {
+      display: block;
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: $bg-success;
+    }
+  }
+  &__icon {
+    font-size: 1.3rem;
+    display: inline-block;
+    margin: 0 .5rem 0 0;
+  }
+  &:hover {
+    color: $link-hover;
+  }
+}
+.unknown-icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 101.5%);
+  margin-left: 1.5rem;
+}
