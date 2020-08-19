@@ -31,7 +31,6 @@
     align-items: center;
     height: 4rem;
     text-transform: capitalize;
-    font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
     color: $text-main;
@@ -52,7 +51,6 @@
 .action-opener {
   color: $text-gray;
   transition: all 0.2s ease;
-  font-weight: 600;
   height: 1.5rem;
   display: flex;
   align-items: center;

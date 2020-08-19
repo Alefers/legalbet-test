@@ -75,3 +75,46 @@ ul {
     padding: 1.5rem;
   }
 }
+
+.tabs {
+  display: flex;
+  overflow-x: auto;
+  max-width: 100%;
+  padding: 0 1.5rem;
+  box-shadow: inset 0 -1px 0 0 $light-border-color;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    white-space: nowrap;
+    color: $text-main;
+    transition: all .2s ease;
+    border-bottom: 1px solid $text-main;
+
+    &:not(.tabs__item_active) {
+      cursor: pointer;
+      color: $link;
+      transition: all .2s ease;
+      border-color: transparent;
+
+      &:hover {
+        color: $link-hover;
+      }
+    }
+
+    & + .tabs__item {
+      margin-left: 1.5rem;
+    }
+  }
+  &-item-count {
+    display: inline-block;
+    margin-left: .4rem;
+    color: $text-main;
+  }
+  &__item_active {
+    .tabs-item-count {
+      color: $text-light;
+    }
+  }
+}
