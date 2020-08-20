@@ -8,7 +8,7 @@
                 @click="$emit('changetab', idx)"
         >
             {{tab.text}}
-            <span class="tabs-item-count" v-if="tab.hasOwnProperty('count') && tab.count !== null" v-html="tab.count" />
+            <span class="tabs__item-count" v-if="tab.hasOwnProperty('count') && tab.count !== null" v-html="tab.count" />
         </li>
     </ul>
 </template>

@@ -1,0 +1,928 @@
+.flag-icon:before {
+    content: '';
+    display: block;
+    height: 12px;
+    width: 16px;
+    background-image: url(../img/flag_16_65.png);
+    background-size: 304px 144px
+}
+
+.flag-icon.flag-ag:before {
+    background-position: -224px -60px
+}
+
+.flag-icon.flag-af:before {
+    background-position: -240px 0
+}
+
+.flag-icon.flag-bs:before {
+    background-position: -208px -108px
+}
+
+.flag-icon.flag-bh:before {
+    background-position: -208px -84px
+}
+
+.flag-icon.flag-bo:before {
+    background-position: -160px -36px
+}
+
+.flag-icon.flag-td:before {
+    background-position: -160px -48px
+}
+
+.flag-icon.flag-cg:before {
+    background-position: -80px -24px
+}
+
+.flag-icon.flag-cd:before {
+    background-position: -96px -24px
+}
+
+.flag-icon.flag-ci:before {
+    background-position: -128px -24px
+}
+
+.flag-icon.flag-gr:before {
+    background-position: -128px -48px
+}
+
+.flag-icon.flag-cu:before,.flag-icon.flag-Cuba {
+    background-position: -176px -36px
+}
+
+.flag-icon.flag-cw:before {
+    background-position: -160px -12px
+}
+
+.flag-icon.flag-gd:before {
+    background-position: -208px -96px
+}
+
+.flag-icon.flag-er:before {
+    background-position: -256px -60px
+}
+
+.flag-icon.flag-et:before {
+    background-position: -208px -60px
+}
+
+.flag-icon.flag-sg:before {
+    background-position: -208px -72px
+}
+
+.flag-icon.flag-Fiji:before,.flag-icon.flag-fj:before {
+    background-position: -176px -72px
+}
+
+.flag-icon.flag-France:before,.flag-icon.flag-gf:before {
+    background-position: -160px -108px
+}
+
+.flag-icon.flag-Ghambia:before,.flag-icon.flag-gm:before {
+    background-position: -96px -48px
+}
+
+.flag-icon.flag-Guinea-Bissau:before,.flag-icon.flag-gw:before {
+    background-position: -16px -60px
+}
+
+.flag-icon.flag-gp:before,.flag-icon.flag-Guadeloupe {
+    background-position: -160px 0
+}
+
+.flag-icon.flag-in:before,.flag-icon.flag-India {
+    background-position: -160px -120px
+}
+
+.flag-icon.flag-iq:before,.flag-icon.flag-Iraq {
+    background-position: -160px -132px
+}
+
+.flag-icon.flag-jo:before {
+    background-position: -192px -120px
+}
+
+.flag-icon.flag-Kosovo:before,.flag-icon.flag-xk:before {
+    background-position: -176px 0
+}
+
+.flag-icon.flag-kr:before {
+    background-position: -80px -72px
+}
+
+.flag-icon.flag-lb:before {
+    background-position: -208px -132px
+}
+
+.flag-icon.flag-ls:before {
+    background-position: -208px -24px
+}
+
+.flag-icon.flag-mq:before {
+    background-position: -176px -84px
+}
+
+.flag-icon.flag-my:before {
+    background-position: -208px -48px
+}
+
+.flag-icon.flag-mn:before {
+    background-position: -192px -12px
+}
+
+.flag-icon.flag-na:before {
+    background-position: -192px 0
+}
+
+.flag-icon.flag-nc:before {
+    background-position: -32px -96px
+}
+
+.flag-icon.flag-ng:before {
+    background-position: -64px -96px
+}
+
+.flag-icon.flag-gn-nir:before {
+    background-position: -96px -96px
+}
+
+.flag-icon.flag-pr:before,.flag-icon.flag-Puerto-Rico {
+    background-position: -176px -48px
+}
+
+.flag-icon.flag-lc:before {
+    background-position: -80px -108px
+}
+
+.flag-icon.flag-gb:before {
+    background-position: -144px -48px
+}
+
+.flag-icon.flag-gb-sct:before {
+    background-position: -112px -108px
+}
+
+.flag-icon.flag-sl:before {
+    background-position: -160px -60px
+}
+
+.flag-icon.flag-tj:before {
+    background-position: -208px -120px
+}
+
+.flag-icon.flag-tz:before {
+    background-position: -176px -24px
+}
+
+.flag-icon.flag-Trinidad-and-Tobago:before,.flag-icon.flag-tt:before {
+    background-position: -160px -72px
+}
+
+.flag-icon.flag-gb-wls:before {
+    background-position: -128px -132px
+}
+
+.flag-icon.flag-zm:before {
+    background-position: -160px -24px
+}
+
+.flag-icon.flag-la:before {
+    background-position: -144px -24px
+}
+
+.flag-icon.flag-team:before {
+    background-position: -144px -36px
+}
+
+.flag-icon.flag-frendlies:before {
+    background-position: -160px -84px
+}
+
+.flag-icon.flag-independent:before,.flag-icon.flag-olympic:before {
+    background-position: -176px -60px
+}
+
+.flag-icon.flag-ph:before {
+    background-position: -192px -36px
+}
+
+.flag-icon.flag-vn:before {
+    background-position: -192px -132px
+}
+
+.flag-icon.flag-id:before {
+    background-position: -208px 0
+}
+
+.flag-icon.flag-kp:before {
+    background-position: -208px -12px
+}
+
+.flag-icon.flag-vi:before {
+    background-position: -176px -72px
+}
+
+.flag-icon.flag-mu:before {
+    background-position: -192px -84px
+}
+
+.flag-icon.flag-vu:before {
+    background-position: -192px -108px
+}
+
+.flag-icon.flag-qa:before {
+    background-position: -192px -24px
+}
+
+.flag-icon.flag-world-cup-2018:before {
+    background-position: -224px 0
+}
+
+.flag-icon.flag-confederations-cup:before {
+    background-position: -224px -48px
+}
+
+.flag-icon.flag-ae:before {
+    background-position: -208px -36px
+}
+
+.flag-icon.flag-al:before {
+    background-position: 0 0
+}
+
+.flag-icon.flag-dz:before {
+    background-position: -16px 0
+}
+
+.flag-icon.flag-angilia:before {
+    background-position: -32px 0
+}
+
+.flag-icon.flag-ao:before {
+    background-position: -48px 0
+}
+
+.flag-icon.flag-ar:before {
+    background-position: -64px 0
+}
+
+.flag-icon.flag-am:before {
+    background-position: -80px 0
+}
+
+.flag-icon.flag-au:before {
+    background-position: -96px 0
+}
+
+.flag-icon.flag-at:before {
+    background-position: -112px 0
+}
+
+.flag-icon.flag-bb:before {
+    background-position: -176px -120px
+}
+
+.flag-icon.flag-ch-tp:before {
+    background-position: -176px -108px
+}
+
+.flag-icon.flag-do:before {
+    background-position: -176px -132px
+}
+
+.flag-icon.flag-by:before {
+    background-position: -128px 0
+}
+
+.flag-icon.flag-be:before {
+    background-position: 0 -12px
+}
+
+.flag-icon.flag-bj:before {
+    background-position: -16px -12px
+}
+
+.flag-icon.flag-ba:before {
+    background-position: -32px -12px
+}
+
+.flag-icon.flag-br:before {
+    background-position: -48px -12px
+}
+
+.flag-icon.flag-bg:before {
+    background-position: -64px -12px
+}
+
+.flag-icon.flag-bf:before {
+    background-position: -80px -12px
+}
+
+.flag-icon.flag-bi:before {
+    background-position: -96px -12px
+}
+
+.flag-icon.flag-cm:before {
+    background-position: -112px -12px
+}
+
+.flag-icon.flag-ca:before {
+    background-position: -128px -12px
+}
+
+.flag-icon.flag-cv:before {
+    background-position: 0 -24px
+}
+
+.flag-icon.flag-cf:before {
+    background-position: -16px -24px
+}
+
+.flag-icon.flag-cl:before {
+    background-position: -32px -24px
+}
+
+.flag-icon.flag-cn:before {
+    background-position: -48px -24px
+}
+
+.flag-icon.flag-co:before {
+    background-position: -64px -24px
+}
+
+.flag-icon.flag-congo-brazzavill:before {
+    background-position: -80px -24px
+}
+
+.flag-icon.flag-congo-kinshasa:before {
+    background-position: -96px -24px
+}
+
+.flag-icon.flag-cr:before {
+    background-position: -112px -24px
+}
+
+.flag-icon.flag-cote-divoire:before {
+    background-position: -128px -24px
+}
+
+.flag-icon.flag-hr:before {
+    background-position: 0 -36px
+}
+
+.flag-icon.flag-cy:before {
+    background-position: -176px -96px
+}
+
+.flag-icon.flag-cz:before {
+    background-position: -32px -36px
+}
+
+.flag-icon.flag-dk:before {
+    background-position: -48px -36px
+}
+
+.flag-icon.flag-ec:before {
+    background-position: -64px -36px
+}
+
+.flag-icon.flag-eg:before {
+    background-position: -80px -36px
+}
+
+.flag-icon.flag-gb-eng:before {
+    background-position: -96px -36px
+}
+
+.flag-icon.flag-gq:before {
+    background-position: -112px -36px
+}
+
+.flag-icon.flag-ee:before {
+    background-position: -128px -36px
+}
+
+.flag-icon.flag-fo:before {
+    background-position: 0 -48px
+}
+
+.flag-icon.flag-fi:before {
+    background-position: -16px -48px
+}
+
+.flag-icon.flag-fr:before {
+    background-position: -32px -48px
+}
+
+.flag-icon.flag-ga:before {
+    background-position: -48px -48px
+}
+
+.flag-icon.flag-ge:before {
+    background-position: -64px -48px
+}
+
+.flag-icon.flag-de:before {
+    background-position: -80px -48px
+}
+
+.flag-icon.flag-ghambia:before {
+    background-position: -96px -48px
+}
+
+.flag-icon.flag-gh:before {
+    background-position: -112px -48px
+}
+
+.flag-icon.flag-grecee:before {
+    background-position: -128px -48px
+}
+
+.flag-icon.flag-gn:before {
+    background-position: 0 -60px
+}
+
+.flag-icon.flag-gn-bissau:before {
+    background-position: -16px -60px
+}
+
+.flag-icon.flag-ht:before {
+    background-position: -32px -60px
+}
+
+.flag-icon.flag-hn:before {
+    background-position: -48px -60px
+}
+
+.flag-icon.flag-hu:before {
+    background-position: -64px -60px
+}
+
+.flag-icon.flag-is:before {
+    background-position: -80px -60px
+}
+
+.flag-icon.flag-ir:before {
+    background-position: -96px -60px
+}
+
+.flag-icon.flag-ie:before {
+    background-position: -112px -60px
+}
+
+.flag-icon.flag-il:before {
+    background-position: -128px -60px
+}
+
+.flag-icon.flag-it:before {
+    background-position: 0 -72px
+}
+
+.flag-icon.flag-jm:before {
+    background-position: -16px -72px
+}
+
+.flag-icon.flag-jp:before {
+    background-position: -32px -72px
+}
+
+.flag-icon.flag-ke:before {
+    background-position: -48px -72px
+}
+
+.flag-icon.flag-kg:before {
+    background-position: -192px -48px
+}
+
+.flag-icon.flag-km:before,.flag-icon.flag-komori:before {
+    background-position: -64px -72px
+}
+
+.flag-icon.flag-korea-south:before {
+    background-position: -80px -72px
+}
+
+.flag-icon.flag-lv:before {
+    background-position: -96px -72px
+}
+
+.flag-icon.flag-lr:before {
+    background-position: -112px -72px
+}
+
+.flag-icon.flag-lt:before {
+    background-position: -128px -72px
+}
+
+.flag-icon.flag-lu:before {
+    background-position: 0 -84px
+}
+
+.flag-icon.flag-mk:before {
+    background-position: -16px -84px
+}
+
+.flag-icon.flag-mg:before {
+    background-position: -32px -84px
+}
+
+.flag-icon.flag-ml:before {
+    background-position: -48px -84px
+}
+
+.flag-icon.flag-mr:before {
+    background-position: -64px -84px
+}
+
+.flag-icon.flag-mx:before {
+    background-position: -80px -84px
+}
+
+.flag-icon.flag-md:before {
+    background-position: -96px -84px
+}
+
+.flag-icon.flag-me:before {
+    background-position: -112px -84px
+}
+
+.flag-icon.flag-ma:before {
+    background-position: -128px -84px
+}
+
+.flag-icon.flag-mz:before {
+    background-position: 0 -96px
+}
+
+.flag-icon.flag-nl:before {
+    background-position: -16px -96px
+}
+
+.flag-icon.flag-new-kaledonia:before {
+    background-position: -32px -96px
+}
+
+.flag-icon.flag-nz:before {
+    background-position: -48px -96px
+}
+
+.flag-icon.flag-neia:before {
+    background-position: -64px -96px
+}
+
+.flag-icon.flag-no:before {
+    background-position: -80px -96px
+}
+
+.flag-icon.flag-nothern-ireland:before {
+    background-position: -96px -96px
+}
+
+.flag-icon.flag-pa:before {
+    background-position: -112px -96px
+}
+
+.flag-icon.flag-py:before {
+    background-position: -128px -96px
+}
+
+.flag-icon.flag-pe:before {
+    background-position: 0 -108px
+}
+
+.flag-icon.flag-pl:before {
+    background-position: -16px -108px
+}
+
+.flag-icon.flag-pt:before {
+    background-position: -32px -108px
+}
+
+.flag-icon.flag-ro:before {
+    background-position: -48px -108px
+}
+
+.flag-icon.flag-ru:before {
+    background-position: -64px -108px
+}
+
+.flag-icon.flag-saint-licia:before {
+    background-position: -80px -108px
+}
+
+.flag-icon.flag-sa:before {
+    background-position: -96px -108px
+}
+
+.flag-icon.flag-scotland:before {
+    background-position: -112px -108px
+}
+
+.flag-icon.flag-sn:before {
+    background-position: -128px -108px
+}
+
+.flag-icon.flag-rs:before {
+    background-position: 0 -120px
+}
+
+.flag-icon.flag-sk:before {
+    background-position: -16px -120px
+}
+
+.flag-icon.flag-si:before {
+    background-position: -32px -120px
+}
+
+.flag-icon.flag-za:before {
+    background-position: -48px -120px
+}
+
+.flag-icon.flag-es:before {
+    background-position: -64px -120px
+}
+
+.flag-icon.flag-se:before {
+    background-position: -80px -120px
+}
+
+.flag-icon.flag-ch:before {
+    background-position: -96px -120px
+}
+
+.flag-icon.flag-th:before {
+    background-position: -112px -120px
+}
+
+.flag-icon.flag-tg:before {
+    background-position: -128px -120px
+}
+
+.flag-icon.flag-tm:before {
+    background-position: -176px -12px
+}
+
+.flag-icon.flag-tn:before {
+    background-position: 0 -132px
+}
+
+.flag-icon.flag-tr:before {
+    background-position: -16px -132px
+}
+
+.flag-icon.flag-ug:before {
+    background-position: -32px -132px
+}
+
+.flag-icon.flag-ua:before {
+    background-position: -48px -132px
+}
+
+.flag-icon.flag-um:before,.flag-icon.flag-us:before {
+    background-position: -64px -132px
+}
+
+.flag-icon.flag-uy:before {
+    background-position: -80px -132px
+}
+
+.flag-icon.flag-uz:before {
+    background-position: -96px -132px
+}
+
+.flag-icon.flag-ve:before {
+    background-position: -112px -132px
+}
+
+.flag-icon.flag-wales:before {
+    background-position: -128px -132px
+}
+
+.flag-icon.flag-zw:before {
+    background-position: -144px 0
+}
+
+.flag-icon.flag-euro:before {
+    background-position: -144px -12px
+}
+
+.flag-icon.flag-uefa-cl:before {
+    background-position: -256px -84px
+}
+
+.flag-icon.flag-uefa-el:before {
+    background-position: -256px -96px
+}
+
+.flag-icon.flag-ne:before {
+    background-position: -144px -60px
+}
+
+.flag-icon.flag-az:before {
+    background-position: -144px -72px
+}
+
+.flag-icon.flag-mt:before {
+    background-position: -144px -84px
+}
+
+.flag-icon.flag-ad:before {
+    background-position: -96px -84px
+}
+
+.flag-icon.flag-ps:before {
+    background-position: -256px -48px
+}
+
+.flag-icon.flag-kz:before,.flag-icon.flag-kk:before {
+    background-position: -144px -96px
+}
+
+.flag-icon.flag-gi:before {
+    background-position: -144px -108px
+}
+
+.flag-icon.flag-sm:before {
+    background-position: -144px -120px
+}
+
+.flag-icon.flag-gb-nir:before {
+    background-position: -240px -84px
+}
+
+.flag-icon.flag-li:before {
+    background-position: -144px -132px
+}
+
+.flag-icon.flag-aw:before {
+    background-position: -256px -36px
+}
+
+.flag-icon.flag-ly:before {
+    background-position: -224px -12px
+}
+
+.flag-icon.flag-sr:before {
+    background-position: -224px -24px
+}
+
+.flag-icon.flag-kan:before {
+    background-position: -224px -36px
+}
+
+.flag-icon.flag-bm:before {
+    background-position: -224px -72px
+}
+
+.flag-icon.flag-club-world-cup:before {
+    background-position: -272px -24px
+}
+
+.flag-icon.flag-hockey-world-cup-2018:before {
+    background-position: -224px -120px
+}
+
+.flag-icon.flag-eurotour:before {
+    background-position: -224px -96px
+}
+
+.flag-icon.flag-cup-of-champions:before {
+    background-position: -224px -132px
+}
+
+.flag-icon.flag-ni:before {
+    background-position: -288px -24px
+}
+
+.flag-icon.flag-ms:before {
+    background-position: -240px -24px
+}
+
+.flag-icon.flag-rw:before {
+    background-position: -240px -36px
+}
+
+.flag-icon.flag-om:before {
+    background-position: -240px -48px
+}
+
+.flag-icon.flag-sv:before {
+    background-position: -240px -60px
+}
+
+.flag-icon.flag-nations-league:before {
+    background-position: -240px -72px
+}
+
+.flag-icon.flag-st:before {
+    background-position: -240px -96px
+}
+
+.flag-icon.flag-euro-2020:before {
+    background-position: -240px -132px
+}
+
+.flag-icon.flag-ad:before {
+    background-position: -256px 0
+}
+
+.flag-icon.flag-hockey-world-cup-2019:before {
+    background-position: -256px -12px
+}
+
+.flag-icon.flag-cup-of-america:before {
+    background-position: -256px -24px
+}
+
+.flag-icon.flag-nhl:before {
+    background-position: -256px -72px
+}
+
+.flag-icon.flag-sy:before {
+    background-position: -256px -108px
+}
+
+.flag-icon.flag-hockey-world-cup-2020:before {
+    background-position: -256px -120px
+}
+
+.flag-icon.flag-copa-libertadores:before {
+    background-position: -256px -132px
+}
+
+.flag-icon.flag-rest-world:before {
+    background-position: -272px -12px
+}
+
+.flag-icon.flag-world-junior-championship-2020:before {
+    background-position: -272px -36px
+}
+
+.flag-icon.flag-world-championship-2022:before {
+    background-position: -272px -48px
+}
+
+.flag-icon.flag-gt:before {
+    background-position: -272px -60px
+}
+
+.flag-icon.flag-khl:before {
+    background-position: -272px -72px
+}
+
+.flag-icon.flag-cup-of-america-2020:before {
+    background-position: -272px -84px
+}
+
+.flag-icon.flag-gy:before {
+    background-position: -272px -96px
+}
+
+.flag-icon.flag-mls:before {
+    background-position: -272px -120px
+}
+
+.flag-icon.flag-parimatch:before {
+    background-position: -272px -108px
+}
+
+.flag-icon.flag-je:before {
+    background-position: -272px -133px
+}
+
+.flag-icon.flag-gu:before {
+    background-position: -288px 0
+}
+
+.flag-icon.flag-ss:before {
+    background-position: -288px -12px
+}
+
+.flag-icon.flag-csgo:before {
+    background-position: -288px -36px
+}
+
+.flag-icon.flag-blast:before {
+    background-position: -288px -48px
+}
+
+.flag-icon.flag-esl:before {
+    background-position: -288px -60px
+}
+
+.flag-icon.flag-dreamhack:before {
+    background-position: -288px -72px
+}
+
+.flag-icon.flag-iem:before {
+    background-position: -288px -84px
+}
+
+.flag-icon.flag-wesg:before {
+    background-position: -288px -96px
+}
+
+.flag-icon.flag-kn:before {
+    background-position: -288px -36px
+}

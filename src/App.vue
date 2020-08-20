@@ -1,25 +1,27 @@
 <template>
   <fragment>
-    <Header />
+    <page-header />
     <main class="content">
       <Matches />
+      <BlogsCarousel />
     </main>
-    <Footer />
+    <page-footer />
   </fragment>
 </template>
 
 <script>
-import Header from "./components/application/Header";
-import Footer from "./components/application/Footer";
+import PageHeader from "./components/application/PageHeader";
+import PageFooter from "./components/application/PageFooter";
 import Matches from "./components/matches/Matches";
-
+import BlogsCarousel from "./components/blogs/BlogsCarousel";
 
 export default {
   name: 'App',
   components: {
+    BlogsCarousel,
     Matches,
-    Footer,
-    Header
+    PageFooter,
+    PageHeader
   }
 }
 </script>
