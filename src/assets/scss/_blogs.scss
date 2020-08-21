@@ -1,6 +1,50 @@
 .blogs-carousel {
   margin-bottom: 1.5rem;
+  position: relative;
 }
+
+.carousel-controls {
+  position: absolute;
+  z-index: 2;
+  width: 8rem;
+  height: 100%;
+  top: 0;
+
+  &__button {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $text-gray;
+    font-size: 1rem;
+    padding: 0.75rem 0;
+  }
+  &_prev {
+    left: 0;
+    background: linear-gradient(270deg, rgba(244, 244, 244, 0) 0, #e5e5e5 75.52%);
+
+    .carousel-controls__button {
+      left: -.5rem;
+    }
+  }
+  &_next {
+    right: 0;
+    background: linear-gradient(90deg, rgba(244, 244, 244, 0) 0, #e5e5e5 75.52%);
+
+    .carousel-controls__button {
+      right: -.5rem;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .carousel-controls {
+    display: none;
+  }
+}
+
 .box_blog-item {
   width: 15rem;
   height: 100%;
@@ -8,6 +52,7 @@
   box-shadow: 0 0 0 0 rgba(0,0,0,.2);
   transition: all .2s ease;
   overflow: hidden;
+  margin-bottom: 0;
 
   .box__header {
     position: relative;

@@ -30,6 +30,7 @@
                                 v-for="(match, mIdx) in matches.football"
                                 :key="mIdx"
                                 :match="match"
+                                :screen-type="screenType"
                         />
                     </div>
                     <div class="box__body">
@@ -42,6 +43,7 @@
                                 v-for="(match, mIdx) in matches.hockey"
                                 :key="mIdx"
                                 :match="match"
+                                :screen-type="screenType"
                         />
                     </div>
                 </div>
@@ -108,7 +110,7 @@ export default {
                                 comand2: 'Ницца',
                                 broadcast: [
                                     'youtube',
-                                    'telesport'
+                                    'telesport',
                                 ],
                                 time: '19:00',
                                 forecast: 3,
@@ -272,8 +274,14 @@ export default {
                         { name: 'Олимпийские игры', flag: 'ru', count: 0, active: false, marked: false },
                     ]
                 },
-            ]
+            ],
+            screenType: '',
+            allowCountingResize: true
         }
+    },
+    created() {
+        window.addEventListener("resize", this.resizeHandler);
+        this.resizeHandler();
     },
     methods: {
         goToTab(idx) {
@@ -281,6 +289,26 @@ export default {
                 tab.active = index === idx;
                 return tab;
             });
+        },
+        resizeHandler() {
+            if (this.allowCountingResize) {
+                this.allowCountingResize = false;
+                setTimeout(() => {
+                    this.setScreenType();
+                    this.allowCountingResize = true;
+                }, 50);
+            }
+        },
+        setScreenType() {
+            if (window.matchMedia("(max-width: 767px)").matches && this.screenType !== 'mobile') {
+                this.screenType = 'mobile';
+            }
+            if (window.matchMedia("(min-width: 768px) and (max-width: 1199px)").matches && this.screenType !== 'tablet') {
+                this.screenType = 'tablet';
+            }
+            if (window.matchMedia("(min-width: 1200px)").matches && this.screenType !== 'desktop') {
+                this.screenType = 'desktop';
+            }
         }
     }
 }

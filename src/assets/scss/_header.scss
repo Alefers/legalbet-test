@@ -4,6 +4,7 @@
   .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 100%;
 
     nav {
@@ -91,4 +92,27 @@
   color: #fff;
   background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 101.5%);
   margin-left: 1.5rem;
+}
+.hamburger {
+  display: none;
+  line-height: 1rem;
+  color: $text-main;
+  font-size: 1.5rem;
+  transition: transform .3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: rotateY(180deg);
+    color: $link-hover;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .desktop-main-nav,
+  .action-panel,
+  .unknown-icon {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
 }

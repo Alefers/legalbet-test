@@ -19,7 +19,7 @@
         width: 9.9375rem;
       }
     }
-    & + .matches-table {
+    &-wrapper + .matches-table-wrapper {
       margin-top: 1.5rem;
     }
   }
@@ -55,6 +55,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .forecast-count {
@@ -88,5 +93,51 @@
       margin-bottom: 1rem;
       border-top: 1px solid $border-color;
     }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .matches {
+    &-table {
+      &__th {
+        font-size: 0.6875rem;
+
+        &-league {
+          color: $text-light;
+          vertical-align: bottom;
+        }
+      }
+      &__td {
+        text-align: center;
+        vertical-align: middle;
+
+        &-broadcast {
+          width: 9.9375rem;
+        }
+      }
+    }
+    &-broadcast {
+      display: flex;
+      justify-content: center;
+      width: 9.9375rem;
+    }
+    &-comands {
+      line-height: normal;
+
+      .time {
+        color: $text-light;
+        margin-right: .5rem;
+      }
+    }
+  }
+  .broadcast-logo {
+    height: auto;
+    width: 100%;
+  }
+  .forecast-count {
+    font-size: 0.6875rem;
+  }
+  .league-chain {
+    margin-bottom: .25rem;
   }
 }

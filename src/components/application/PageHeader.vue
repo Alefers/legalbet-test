@@ -4,7 +4,7 @@
             <div class="header-logo">
                 <img class="header-logo__image" src="img/legalbet-logo.svg" alt="Legalbet logo" />
             </div>
-            <nav>
+            <nav class="desktop-main-nav">
                 <ul class="main-nav">
                     <li class="main-nav__item" v-for="(item, idx) in menuItems" :key="idx" v-html="item" />
                 </ul>
@@ -22,6 +22,9 @@
             </div>
             <div class="unknown-icon">
                 FL
+            </div>
+            <div class="hamburger">
+                <i class="las la-bars"></i>
             </div>
         </div>
     </header>

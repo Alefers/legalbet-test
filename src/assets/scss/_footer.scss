@@ -32,3 +32,11 @@
     margin-right: .5rem;
   }
 }
+@media screen and (max-width: 767px) {
+  .footer__right-side {
+    display: none;
+  }
+  .footer-element {
+    width: 100%;
+  }
+}
