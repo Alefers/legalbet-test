@@ -65,7 +65,14 @@ import MatchesTable from "./MatchesTable";
 import LeagueList from "./LeagueList";
 
 export default {
-    components: {LeagueList, MatchesTable, Tabs},
+    props: {
+        screenType: String
+    },
+    components: {
+        LeagueList,
+        MatchesTable,
+        Tabs
+    },
     data: () => {
         return {
             tabs: [
@@ -274,14 +281,8 @@ export default {
                         { name: 'Олимпийские игры', flag: 'ru', count: 0, active: false, marked: false },
                     ]
                 },
-            ],
-            screenType: '',
-            allowCountingResize: true
+            ]
         }
-    },
-    created() {
-        window.addEventListener("resize", this.resizeHandler);
-        this.resizeHandler();
     },
     methods: {
         goToTab(idx) {
@@ -289,26 +290,6 @@ export default {
                 tab.active = index === idx;
                 return tab;
             });
-        },
-        resizeHandler() {
-            if (this.allowCountingResize) {
-                this.allowCountingResize = false;
-                setTimeout(() => {
-                    this.setScreenType();
-                    this.allowCountingResize = true;
-                }, 50);
-            }
-        },
-        setScreenType() {
-            if (window.matchMedia("(max-width: 767px)").matches && this.screenType !== 'mobile') {
-                this.screenType = 'mobile';
-            }
-            if (window.matchMedia("(min-width: 768px) and (max-width: 1199px)").matches && this.screenType !== 'tablet') {
-                this.screenType = 'tablet';
-            }
-            if (window.matchMedia("(min-width: 1200px)").matches && this.screenType !== 'desktop') {
-                this.screenType = 'desktop';
-            }
         }
     }
 }
